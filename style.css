@@ -1,0 +1,11 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header, footer{
+    height: 150px;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
