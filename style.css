@@ -2,10 +2,28 @@ body{
     margin: 0px;
     padding: 0px;
 }
-header, footer{
+#header, #footer{
     height: 150px;
     background-color: darkgray;
     display: flex;
     align-items: center;
     padding: 15px;
+}
+#mainContent{
+    display: flex;
+}
+.main-list-box{
+    width: 25%;
+    /* background-color: blue; */
+}
+.main-list-box ul li{
+    background-color: blue;
+    list-style: none;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+
+}
+.main-text-box{
+    padding: 10px;
 }
