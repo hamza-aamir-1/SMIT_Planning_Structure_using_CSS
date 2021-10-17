@@ -14,16 +14,21 @@ body{
 }
 .main-list-box{
     width: 25%;
-    /* background-color: blue; */
 }
 .main-list-box ul li{
     background-color: blue;
     list-style: none;
     color: white;
-    margin: 5px;
+    margin: 10px;
     padding: 10px;
-
+}
+.main-list-box ul li:hover{
+    background-color: darkblue;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 .main-text-box{
     padding: 10px;
+    display: flex;
+    align-items: center;
 }
